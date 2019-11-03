@@ -1,0 +1,129 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+li {
+	list-style: none;
+}
+
+body {
+	background: #F6F6F6;
+}
+
+header,
+footer {
+	margin: 0 auto;
+	width: 800px;
+}
+/*头部样式*/
+header div {
+	width: 800px;
+	background: #39435b;
+	text-align: center;
+	overflow: hidden;
+	padding: 8px;
+}
+header img {
+	width: 40px;
+}
+header div span {
+	color: #FFFFFF;
+	font-size: 24px;
+}
+header button{background: none;border: 0;float: left;}
+/*设置与底部的间距*/
+main {
+	margin-bottom: 70px;
+}
+.main {
+	margin: 10px auto;
+	width: 800px;
+	background: #FFFFFF;
+	overflow: hidden;
+}
+.main a {
+	color: #000000;
+}
+.main .c {
+	padding: 5px 15px;
+	border-bottom: 1px solid #CCCCCC;
+}
+.main .img {
+	overflow: hidden;
+}
+.main .img>img {
+	width: 250px;
+	float: left;
+	margin-right: 20px;
+}
+.main .img>ul {
+	padding-top: 10px;
+}
+.main ul>li small{
+	color: red;
+}
+.main ul>li img {
+	width: 40px;
+	float: right;
+	margin-top: 220px;
+}
+.main .f {
+	border-top: 1px solid #CCCCCC;
+	padding: 5px 10px;
+	overflow: hidden;
+}
+.main .f span {
+	color: red;
+}
+.main .f input {
+	width: 30px;
+}
+.main .f button {
+	width: 30px;
+	padding: 0;
+	height: 25px;
+}
+.main .f img {
+	width: 20px;
+}
+.main .f div {
+	float: right;
+}
+
+/*模态框*/
+#mymodal2 .modal-body{border: 0}
+#mymodal2 div{text-align: center;}
+#mymodal2 div img{width: 300px;}
+#mymodal2 div table{display: none;}
+#mymodal2 h4{text-align: center;}
+
+/*底部样式*/
+footer div {
+	height: 50px;
+	line-height: 50px;
+	padding-left: 20px;
+	position: fixed;
+	z-index: 1;
+	bottom: 0;
+	background: #FFF;
+	width: 800px;
+	overflow: hidden;
+}
+footer strong{
+	margin-right: 10px;
+}
+footer div span{
+	color: red;
+}
+footer div .btn-default {
+	background: #F6C45A;
+	border: 0;
+	color: #FFFFFF;
+	float: right;
+	height: 50px;
+}

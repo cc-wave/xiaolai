@@ -1,0 +1,211 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background: whitesmoke;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	color: dodgerblue;
+}
+
+header,
+nav,
+main,
+footer {
+	width: 800px;
+	margin: 0 auto;
+	text-align: center;
+	background-color: white;
+}
+
+
+/*头部样式*/
+
+header {
+	background-color: #39435B;
+	overflow: hidden;
+}
+
+header p {
+	float: left;
+}
+
+header p img {
+	width: 80px;
+}
+
+header span {
+	color: white;
+}
+
+header .acount {
+	float: right;
+	color: white;
+	position: relative;
+	top: 50px;
+	font-size: 14px;
+}
+
+header a:hover {
+	color: dodgerblue;
+}
+
+main {
+	margin-bottom: 15px;
+}
+
+main .p1 {
+	overflow: hidden;
+	border-bottom: 1px solid #CCCCCC;
+}
+
+main .p1 img {
+	width: 20px;
+}
+
+.c1,img {
+	float: left;
+	font-size: 14px;
+	padding: 8px 3px;
+}
+
+main img {
+	width: 15px;
+}
+
+main a {
+	float: right;
+	color: black;
+	font-size: 12px;
+	padding-top: 12px;
+}
+
+main ul {
+	border-bottom: 1px solid #CCCCCC;
+	overflow: hidden;
+	padding-left: 180px;
+}
+
+main li {
+	float: left;
+	padding: 0 30px;
+	padding-bottom: 5px;
+}
+
+main ul li img {
+	width: 40px;
+}
+
+.u1 {
+	width: 800px;
+	height: 20px;
+	background-color: whitesmoke;
+}
+
+
+/*设置内容样式*/
+
+nav {
+	overflow: hidden;
+	font-size: 12px;
+	margin-bottom: 150px;
+}
+
+nav div {
+	float: left;
+	width: 800px;
+	border-bottom: 1px solid #CCCCCC;
+}
+nav .p2 {
+	border-bottom: 1px solid #CCCCCC;
+}
+nav .p2 ul{
+    display: none;
+    font-size: 16px;
+    text-align: left;
+}
+
+nav img {
+	width: 20px;
+}
+
+nav a {
+	color: black;
+}
+
+nav .a1 {
+	float: right;
+	color: #666;
+	padding: 10px 5px 0 0;
+}
+
+.a1:hover {
+	color: dodgerblue;
+}
+
+
+/*底部样式*/
+
+footer ul {
+	position: fixed;
+	z-index: 1;
+	bottom: 0;
+	background-color: #39435b;
+	width: 800px;
+	overflow: hidden;
+	margin-bottom: 0;
+}
+
+footer li {
+	float: left;
+	height: 65px;
+}
+
+footer .li1 {
+	padding-left: 120px;
+}
+
+footer .first {
+	color: dodgerblue;
+}
+
+footer img {
+	height: 45px;
+	padding: 5px 50px;
+}
+
+footer a {
+	color: #CCCCCC;
+}
+/*蒙版*/
+#mengban {
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+	background-color: rgba(9, 9, 9, 0.63);
+	width: 100%;
+	height: 100%;
+	z-index: 1000;
+}
+.model-content {
+	width: 50%;
+	text-align: left;
+	background: #ffffff;
+	border-radius: 6px;
+	margin: 100px auto;
+	padding: 30px;
+	line-height: 30px;
+	z-index: 10001;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>商品详情</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+		<link rel="stylesheet" type="text/css" href="css/detial.css"/>
+		<script src="js/jquery-2.1.4.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/bootstrap.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/detail.js" type="text/javascript" charset="utf-8"></script>
+		<meta name="viewport" 
+			content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	</head>
+	<body>
+		<header>
+			<div>
+			<a href="#"onclick="history.back()"><img src="img/分类-左翻页 .png" /></a>
+			<span>商品详情</span>
+			</div>
+		</header>
+		<!--商品的详细介绍-->
+		<nav>
+			<img src="img/详情-banner.png"/>
+			<h4><strong>C#编程基础</strong></h4>
+			<p>商品价格：<span>￥59.00</span></p>
+			<p>专业：移动互联开发、移动互联应用</p>
+			<p>数量：<input type="" value="1"/>册</p>	
+		</nav>
+		<!--商品详情-->
+		<main>
+			<ul class="list-inline text-center nav nav-tabs">
+				<li class="col-lg-4 col-md-4 col-sm-4 col-xs-4 li1"><a data-toggle="tab" href="#home">图片详情</a></li>
+				<li class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><a data-toggle="tab" href="#menu1">规格参数</a></li>
+				<li class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><a data-toggle="tab" href="#menu2">评论(199)</a></li>
+			</ul>
+			<div class="tab-content">
+    			<div id="home" class="tab-pane fade in active">
+					<img src="img/详情-web.jpg"/>
+					<img src="img/详情-cc.jpg"/>
+					<img src="img/详情-winform.jpg"/>
+  				</div>
+  			 	<div id="menu1" class="tab-pane fade">
+   			 		<img src="img/loading.gif"/>
+   			 		<p>等待加载，请稍后再试</p>
+  			 	</div>
+  			 	<div id="menu2" class="tab-pane fade">
+  			 		<img src="img/loading.gif"/>
+  			 		<p>等待加载，请稍后再试</p>
+ 			    </div>
+ 			</div>
+		</main>
+		<!--尾部导航-->
+		<footer>
+			<div class="">
+				<div class="">
+					<img src="img/详情-收藏.png" id="cang"/><span>收藏</span>
+					<img src="img/详情-购物车.png" id="shopping"/><span>购物车</span>
+				</div>
+				<a href="shopping.html" ><span class="sp2">去结算</span></a>
+				<a href="shopping.html" id="shopping-car"><span class="sp1">加入购物车</span></a>
+			</div>
+		</footer>
+		
+	</body>
+</html>

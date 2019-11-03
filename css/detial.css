@@ -1,0 +1,128 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+a {
+	color: #FFFFFF;
+}
+
+a:hover {
+	color: #000;
+	text-decoration: none;
+}
+
+body {
+	background: #F6F6F6;
+}
+
+header,
+footer {
+	margin: 0 auto;
+	width: 800px;
+}
+/*头部*/
+header div {
+	width: 800px;
+	background: #39435b;
+	text-align: center;
+	overflow: hidden;
+	padding: 8px;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+}
+header img {
+	width: 40px;
+}
+header div span {
+	color: #FFFFFF;
+	font-size: 24px;
+}
+header a:first-child {
+	float: left;
+}
+/*课本内容介绍*/
+nav {
+	margin: 80px auto 0;
+	width: 800px;
+	background: #FFFFFF;
+	padding: 10px;
+}
+nav p span {
+	color: red;
+}
+nav p input {
+	width: 30px;
+}
+/*图片*/
+.nav-tabs > li.active > a,
+ .nav-tabs > li.active > a:hover, 
+ .nav-tabs > li.active > a:focus{border: 0;}
+main {
+	margin: 10px auto 80px;
+	width: 800px;
+	background: #FFFFFF;
+	padding: 10px;
+}
+main ul {
+	padding: 5px;
+	margin-bottom: 30px;
+}
+main ul li {
+	padding-bottom: 5px;
+	border: 0;
+	border-bottom: 1px solid #CCCCCC;
+	margin: 0;
+}
+main ul .li1{
+	border-bottom: 3px solid #F6C45A;
+}
+main ul li a {
+	color: #000000;
+}
+/*图片详情*/
+main #home img{
+	border: 1px solid #CCCCCC;
+	width: 100%;
+}
+/*规格参数和评论*/
+main #menu1,main #menu2{
+	text-align: center;
+	padding-top: 40px;
+	min-height: 600px;
+}
+/*底部*/
+footer>div {
+	overflow: hidden;
+	margin: 0 auto;
+	width: 800px;
+	position: fixed;
+	z-index: 1;
+	bottom: 0;
+	background: #FFFFFF;
+}
+footer img {
+	width: 50px;
+}
+footer>div>div {
+	display: inline;
+	margin-left: 20px;
+}
+footer>div>div span {
+	position: relative;
+	top: 30px;
+	left: -40px;
+}
+footer .sp1 {
+	color: #FFFFFF;
+	background: #39435b;
+	padding: 24px 30px;
+	float: right;
+}
+footer .sp2 {
+	color: #FFFFFF;
+	background: #F6C45A;
+	padding: 24px 30px;
+	float: right;
+}

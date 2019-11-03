@@ -1,0 +1,43 @@
+*{padding: 0;margin: 0;}
+body{background-color: whitesmoke;}
+li{list-style: none;}
+a{text-decoration: none;}
+a:hover{color: dodgerblue;}
+header,nav,main,footer{width: 800px;margin: 0 auto;text-align: center;background-color: white;}
+header .one{background-color: #39435b; height: 40px;padding: 8px 16.8px;position: fixed;z-index: 1;top: 0;}
+header .one img{height: 40px;}
+header input{width: 500px;height:30px;margin: 0 50px;border-radius:30px;position: relative;bottom: 15px;}
+header .two{margin-top:50px;width: 800px;height:300px;overflow: hidden;position: relative;}
+header ul{position: absolute;width: 2400px;}
+header li{float: left;}
+header li img{width: 800px;height:300px;display: block;}
+nav {margin-bottom: 20px;padding-bottom: 10px;}
+nav ul{margin-left: 160px;overflow: hidden;}
+nav li{float: left;padding: 0 30px;}
+nav li a{text-decoration: none;}
+nav img{width: 60px;}
+main{overflow: hidden;height: 920px;}
+.top p{overflow: hidden;padding: 5px;border-bottom: 1px solid #ccc;}
+.top{height: 462px;margin-bottom: 40px;}
+.c1,.c2{float: left;}
+.c1 img{width: 20px;}
+.c2 img{width: 20px;}
+main a{float: right;color: darkorange;}
+.img2{width:410px;float: right;}
+.img3{padding-right: 3px;}
+.img3 img{width: 180px;}
+.img1,.img3{float: left;padding-left: 8px;border-right: 1px solid #ccc;}
+.img1{border-bottom: 1px solid #ccc;padding: 10px  5px;}
+.zhong{width: 800px;height: 20px;background-color: whitesmoke;}
+.bottom{height:300px;}
+.bottom p{overflow: hidden;padding: 5px;border-bottom: 1px solid #ccc;}
+.img4{height:300px; width:380px;float: left;padding-top: 50px;border-right: 1px solid #ccc;}
+#img5 .img5{width: 400px;height: 150px;border-top: 1px solid #ccc;}
+.di{text-align: center;line-height: 40px;color: #CCCCCC;font-size: 14px;margin-bottom: 80px;}
+footer .one{position: fixed;z-index: 1;bottom: 0;background-color: #39435b;overflow: hidden;width: 800px;}
+footer li{float: left;height: 65px;}
+footer .li1{padding-left: 120px;}
+footer .ba1{color: dodgerblue;}
+footer img{height: 30px;padding: 5px 50px 0;}
+footer a{color: #CCCCCC;}
+            

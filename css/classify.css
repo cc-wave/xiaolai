@@ -1,0 +1,111 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+a {
+	color: #FFFFFF;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	color: dodgerblue;
+	text-decoration: none;
+}
+
+body {
+	background: #F6F6F6;
+}
+
+header,
+footer {
+	margin: 0 auto;
+	width: 800px;
+}
+/*头部*/
+header div {
+	width: 800px;
+	background: #39435b;
+	text-align: center;
+	overflow: hidden;
+	padding-right: 10px;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	padding-top: 6px;
+}
+header img {
+	width: 40px;
+}
+header div span {
+	color: #FFFFFF;
+	font-size: 24px;
+}
+header a:last-child {
+	float: right;
+}
+header button{background: none;border: 0;float: left;}
+/*分类设置,图片*/
+main h5 {
+	font-weight: bold;
+	color: #FFAF3A;
+	padding: 10px 10px 0;
+	margin: 0;
+	background: #FFFFFF;
+}
+main ul li {
+	width: 100%;
+	height: 80px;
+	border-top: 1px solid #CCCCCC;
+	line-height: 80px;
+	background: #FFFFFF;
+	border-left: 1px solid #CCCCCC;
+}
+main ul li img {
+	width: 100px;
+	height: 50px;
+}
+/*显示全部与精简*/
+nav {
+	position: relative;
+	top: 20px;
+	margin-bottom: 130px;
+}
+/*底部*/
+footer ul {
+	position: fixed;
+	z-index: 1;
+	bottom: 0;
+	background-color: #39435b;
+	width: 800px;
+	overflow: hidden;
+	margin-bottom: 0;
+}
+footer li {
+	float: left;
+	height: 65px;
+}
+footer .li1 {
+	padding-left: 120px;
+}
+footer .first {
+	color: dodgerblue;
+}
+footer img {
+	height: 40px;
+	padding: 5px 50px;
+}
+footer a {
+	color: #CCCCCC;
+	text-align: center;
+	float: left;
+	width: 130px;
+	font-size: 16px;
+}
