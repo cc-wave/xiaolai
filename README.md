@@ -1,6 +1,5 @@
 xiaolai
 =======
-#### Browser address：http://106.15.93.20/xiaolai/
 
 * 使用<br>
 HTML5 + CSS3 + JS + JQuery，Bootstrap框架<br>
@@ -10,4 +9,4 @@ Bootstrap中文文档： https://v3.bootcss.com/
 <2> 购物车页面功能使用Ajax向Json文件发起请求，大量运用JQuery选择器进行数量、小计的运算，点击结算用JQuery来创建DOM元素建立表格，
 将要购买图书信息呈现在模态框上。
 * 流程<br>
-进入[首页](http://106.15.93.20/xiaolai/)-》[热门](http://106.15.93.20/xiaolai/hot.html)-》列表名称进入详情页......
+进入[首页]-》[热门]-》列表名称进入详情页......
